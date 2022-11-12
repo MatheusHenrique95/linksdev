@@ -1,0 +1,94 @@
+
+
+.admin-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 5px 30px 5px;
+}
+
+.label {
+    color: #fff;
+    font-weight: medium;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.container-colors {
+    display: flex;
+    gap: 25px;
+    margin: 15px 0;
+}
+
+.right {
+    margin-right: 15px;
+}
+.container-colors [type='color'] {
+    width: 25px;
+    height: 25px;
+    border: solid 1px #fff;
+}
+
+.btn-register {
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn-register svg {
+    margin-left: 10px;
+}
+
+.title {
+    color: #fff;
+    margin: 30px 0 15px 0;
+}
+
+.list {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(36, 36, 36, 0.35);
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+
+.preview{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.btn-delete {
+    border: 1.5px dashed #fff;
+    color: #fff;
+    background-color: #000;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.animate-pop {
+    animation-duration: 0.5s;
+    animation-name: animate-pop;
+}
+
+@keyframes animate-pop{
+    0%{
+        opacity: 0;
+        transform: scale(0.7, 0.7);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}

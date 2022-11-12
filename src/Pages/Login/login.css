@@ -1,0 +1,25 @@
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 90%;
+}
+
+.form button {
+    height: 36px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #53793a;
+    border: 0;
+    font-size: 18px;    
+}
