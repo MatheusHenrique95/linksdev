@@ -10,4 +10,5 @@ Projeto de página de links editável por acesso via login.
 <a target="_blank" href="https://www.w3schools.com/js/"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript" width="40" height="40" /></a>
 <a target="_blank" href="https://www.w3schools.com/react/"> <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="React" width="40" height="40" /></a>
 <a target="_blank" href="https://firebase.google.com/"> <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png" alt="Firebase" width="40" height="40" /></a>
+<a target="_blank" href="https://www.w3schools.com/nodejs/"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="Node" width="40" height="40" /></a>
 <div>
